@@ -208,7 +208,7 @@ topPledgeGame.textContent = firstGame.name;
 firstGameContainer.appendChild(topPledgeGame);
 
 // do the same for the runner up item
-// secondGameContainer.innerHTML = `
+// secondGameContainer.innerHTML =  `
 //     <h2>${secondGame.name}</h2>`;
 
 const runnerUp = document.createElement("h2");
