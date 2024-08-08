@@ -21,6 +21,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -36,7 +39,8 @@ body {
     font-size: 50px;
 }
 
-#games-container {
+/* fix games-container css */
+#games-container { 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
